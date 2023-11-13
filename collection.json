@@ -250,14 +250,13 @@
 				"method": "PUT",
 				"header": [],
 				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "note",
-							"value": "some text2",
-							"type": "text"
+					"mode": "raw",
+					"raw": "some text2",
+					"options": {
+						"raw": {
+							"language": "text"
 						}
-					]
+					}
 				},
 				"url": {
 					"raw": "localhost:8000/notes/my_note",
